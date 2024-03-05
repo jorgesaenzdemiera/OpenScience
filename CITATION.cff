@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Gobrid PDF Analysis
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - email: jorgesaenzdemiera2@gmail.com
+    family-names: Sáenz de Miera
+    given-names: Jorge
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10780485
+keywords:
+  - Gobrid
+  - open science
+license: MIT
+commit: 006ce853e66b6c1aa0fe85c487ed806fdf674b37
+version: '0'
+date-released: '2024-03-04'
