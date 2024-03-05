@@ -17,6 +17,6 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
 ## Running examples
 
 ## Preferred citation
-[Use CITATION.cff](https://github.com/jorgesaenzdemiera/OpenScience/blob/main/CITATION.cff)
+Use [CITATION.cff](https://github.com/jorgesaenzdemiera/OpenScience/blob/main/CITATION.cff)
 
 ## Acknowledgements
