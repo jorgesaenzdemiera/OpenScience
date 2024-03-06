@@ -12,11 +12,11 @@ services:
     restart: always
       
   paper_analysis:
-    build: . 
-    container_name: jorgesaenzdemiera/grobid_pdf
+    image: jorgesaenzdemiera/grobid_pdf:v3
+    container_name: grobid-client
     volumes:
-      - ./input:/home/input
-      - ./output:/home/output
+      - ./input: home/input
+      - ./output: home/output
     
     depends_on:
       - grobid-server
