@@ -28,9 +28,9 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
 See the example with [10 computer vision articles](https://github.com/jorgesaenzdemiera/OpenScience/tree/main/Assesment%201.%20Grobid%20Analysis/input) in the repository.
 
 [Output after execution](https://github.com/jorgesaenzdemiera/OpenScience/tree/main/Assesment%201.%20Grobid%20Analysis/output) include:
-    - An image featuring the word cloud generated from the abstract of each article processed with Grobid.
-    - An histogram showing the number of figures per article.
-    - A text file with all the links that appear in each one of the articles.
+  * An image featuring the word cloud generated from the abstract of each article processed with Grobid.
+  * An histogram showing the number of figures per article.
+  * A text file with all the links that appear in each one of the articles.
 
 ## Preferred citation
 Use [CITATION.cff](https://github.com/jorgesaenzdemiera/OpenScience/blob/main/CITATION.cff)
