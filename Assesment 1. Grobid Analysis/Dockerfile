@@ -10,6 +10,5 @@ RUN pip install -r requirements.txt
 
 RUN git clone https://github.com/kermitt2/grobid_client_python && cd grobid_client_python && python setup.py install
 RUN cd ..
-RUN cd Assesment1_GrobidAnalysis/
 
-CMD ["python3", "grobid.py"]
+CMD ["python", "-u", "grobid.py"]
