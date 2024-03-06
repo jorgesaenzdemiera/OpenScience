@@ -20,7 +20,7 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
     ```
     docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.0
     ```
-  * Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for instalation)
+  * Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for more detailed instalation)
     ```
     git clone https://github.com/kermitt2/grobid_client_python
     cd grobid_client_python
