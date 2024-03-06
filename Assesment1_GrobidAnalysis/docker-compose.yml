@@ -12,8 +12,8 @@ services:
     restart: always
       
   paper_analysis:
-    build: . 
-    container_name: jorgesaenzdemiera/grobid_pdf
+    image: jorgesaenzdemiera/grobid_pdf:latest
+    container_name: grobid-client
     volumes:
       - ./input:/home/input
       - ./output:/home/output
