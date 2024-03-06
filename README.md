@@ -1,5 +1,7 @@
 # OpenScience
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10785363.svg)](https://doi.org/10.5281/zenodo.10785363)
+[![Documentation Status](https://readthedocs.org/projects/open-science/badge/?version=latest)](https://open-science.readthedocs.io/en/latest/?badge=latest)
+
 
 ## Description
 Assesments for Artificial Intelligence And Open Science In Research Software Engineering
