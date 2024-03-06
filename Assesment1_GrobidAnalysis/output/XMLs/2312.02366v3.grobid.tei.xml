@@ -94,7 +94,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.0" ident="GROBID" when="2024-03-06T23:31+0000">
+				<application version="0.8.0" ident="GROBID" when="2024-03-06T23:43+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -1269,43 +1269,35 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<title level="a" type="main" coord="24,335.41,373.17,183.18,8.74;24,113.88,391.10,86.59,8.74">Foundation models for generalist medical artificial intelligence</title>
 		<author>
 			<persName coords=""><forename type="first">Michael</forename><surname>Moor</surname></persName>
-			<idno type="ORCID">0000-0002-3401-2937</idno>
 		</author>
 		<author>
 			<persName coords=""><forename type="first">Oishi</forename><surname>Banerjee</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Zahra</forename><forename type="middle">Shakeri Hossein</forename><surname>Abad</surname></persName>
+			<persName coords=""><forename type="first">Zahra</forename><surname>Shakeri Hossein</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Harlan</forename><forename type="middle">M</forename><surname>Krumholz</surname></persName>
-			<idno type="ORCID">0000-0003-2046-127X</idno>
+			<persName coords=""><forename type="first">Harlan</forename><forename type="middle">M</forename><surname>Abad</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Jure</forename><surname>Leskovec</surname></persName>
-			<idno type="ORCID">0000-0002-5411-923X</idno>
+			<persName coords=""><forename type="first">Jure</forename><surname>Krumholz</surname></persName>
 		</author>
 		<author>
-			<persName><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
-			<idno type="ORCID">0000-0002-1478-4729</idno>
+			<persName coords=""><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Leskovec</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">Pranav</forename><surname>Rajpurkar</surname></persName>
-			<idno type="ORCID">0000-0002-8030-3727</idno>
+			<persName coords=""><forename type="first">Pranav</forename><surname>Topol</surname></persName>
 		</author>
-		<idno type="DOI">10.1038/s41586-023-05881-4</idno>
+		<author>
+			<persName coords=""><surname>Rajpurkar</surname></persName>
+		</author>
 	</analytic>
 	<monogr>
 		<title level="j" coord="24,208.82,391.10,27.60,8.74">Nature</title>
-		<title level="j" type="abbrev">Nature</title>
-		<idno type="ISSN">0028-0836</idno>
-		<idno type="ISSNe">1476-4687</idno>
 		<imprint>
 			<biblScope unit="volume">616</biblScope>
-			<biblScope unit="issue">7956</biblScope>
 			<biblScope unit="page" from="259" to="265" />
-			<date type="published" when="2023-04-12">7956. April 2023</date>
-			<publisher>Springer Science and Business Media LLC</publisher>
+			<date type="published" when="2023-04">7956. April 2023</date>
 		</imprint>
 	</monogr>
 </biblStruct>
@@ -1903,8 +1895,8 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 </biblStruct>
 
 <biblStruct coords="26,113.88,345.27,404.72,8.74;26,113.88,363.21,404.72,8.74;26,113.88,381.14,404.71,8.74;26,113.88,399.07,404.72,8.74;26,113.88,417.00,404.72,8.74;26,113.88,434.94,95.80,8.74" xml:id="b33">
-	<monogr>
-		<title level="m" type="main" coord="26,475.39,399.07,43.20,8.74;26,113.88,417.00,361.69,8.74">Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison</title>
+	<analytic>
+		<title level="a" type="main" coord="26,475.39,399.07,43.20,8.74;26,113.88,417.00,361.69,8.74">CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison</title>
 		<author>
 			<persName coords=""><forename type="first">Jeremy</forename><surname>Irvin</surname></persName>
 		</author>
@@ -1921,7 +1913,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 			<persName coords=""><forename type="first">Silviana</forename><surname>Ciurea-Ilcus</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">Christopher</forename><surname>Chute</surname></persName>
+			<persName><forename type="first">Chris</forename><surname>Chute</surname></persName>
 		</author>
 		<author>
 			<persName coords=""><forename type="first">Henrik</forename><surname>Marklund</surname></persName>
@@ -1957,20 +1949,28 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 			<persName coords=""><forename type="first">Curtis</forename><forename type="middle">P</forename><surname>Langlotz</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">N</forename><surname>Bhavik</surname></persName>
+			<persName><forename type="first">Bhavik</forename><forename type="middle">N</forename><surname>Patel</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">Matthew</forename><forename type="middle">P</forename><surname>Patel</surname></persName>
+			<persName><forename type="first">Matthew</forename><forename type="middle">P</forename><surname>Lungren</surname></persName>
 		</author>
 		<author>
-			<persName coords=""><forename type="first">Andrew</forename><forename type="middle">Y</forename><surname>Lungren</surname></persName>
+			<persName coords=""><forename type="first">Andrew</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
 		</author>
-		<author>
-			<persName coords=""><surname>Ng</surname></persName>
-		</author>
+		<idno type="DOI">10.1609/aaai.v33i01.3301590</idno>
 		<idno>CoRR, abs/1901.07031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the AAAI Conference on Artificial Intelligence</title>
+		<title level="j" type="abbrev">AAAI</title>
+		<idno type="ISSN">2159-5399</idno>
+		<idno type="ISSNe">2374-3468</idno>
 		<imprint>
-			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="590" to="597" />
+			<date type="published" when="2019-07-17">2019</date>
+			<publisher>Association for the Advancement of Artificial Intelligence (AAAI)</publisher>
 		</imprint>
 	</monogr>
 </biblStruct>

@@ -7,11 +7,11 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main" coord="1,129.75,27.90,238.52,9.96;1,139.15,81.87,333.71,15.29;1,228.20,103.79,155.59,15.29;4,445.59,126.72,86.70,8.24">Transactions on Machine Learning Research (01/2024) DINOv2: Learning Robust Visual Features without Supervision</title>
-				<funder ref="#_CD3KvgW">
+				<funder ref="#_KqH7sEt">
 					<orgName type="full">European Research Council</orgName>
 					<orgName type="abbreviated">ERC</orgName>
 				</funder>
-				<funder ref="#_WnHZScU">
+				<funder ref="#_XvXBqSq">
 					<orgName type="full">Agence Nationale de la Recherche</orgName>
 					<orgName type="abbreviated">ANR</orgName>
 				</funder>
@@ -124,7 +124,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.0" ident="GROBID" when="2024-03-06T23:31+0000">
+				<application version="0.8.0" ident="GROBID" when="2024-03-06T23:43+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -232,11 +232,11 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <div><head>Acknowledgments.</head><p>We thank <rs type="person">Mathilde Caron</rs> for initial discussions that led to this work. <rs type="person">Julien Mairal</rs> was supported by the <rs type="funder">ERC</rs> grant number <rs type="grantNumber">101087696</rs> (<rs type="projectName">APHELAIA</rs> project) and by <rs type="funder">ANR 3IA MIAI@Grenoble Alpes</rs> (<rs type="grantNumber">ANR-19-P3IA-0003</rs>). We thank <rs type="person">Olivia Joulin</rs> for the horse drawing used in Fig. 10. We thank <rs type="person">Madeleine</rs> and <rs type="person">Léon</rs> for posing for Fig. 8 We also thank the rest of <rs type="institution">FAIR and Meta AI</rs> for feedback on this work through the entire project.</p></div>
 			</div>
 			<listOrg type="funding">
-				<org type="funded-project" xml:id="_CD3KvgW">
+				<org type="funded-project" xml:id="_KqH7sEt">
 					<idno type="grant-number">101087696</idno>
 					<orgName type="project" subtype="full">APHELAIA</orgName>
 				</org>
-				<org type="funding" xml:id="_WnHZScU">
+				<org type="funding" xml:id="_XvXBqSq">
 					<idno type="grant-number">ANR-19-P3IA-0003</idno>
 				</org>
 			</listOrg>
