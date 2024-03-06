@@ -9,10 +9,10 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
   - Create a list of the links found in each paper.
 
 ## Requirements
-    * Python 3 (See [Python Downloads](https://www.python.org/downloads/) for instalation)
-    * Docker (See [Docker Downloads](https://docs.docker.com/get-docker/) for instalation)
-    * Grobid Server (See [Grobid Documentation](https://grobid.readthedocs.io/en/latest/Grobid-docker/) for instalation)
-    * Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for instalation)
+  * Python 3 (See [Python Downloads](https://www.python.org/downloads/) for instalation)
+  * Docker (See [Docker Downloads](https://docs.docker.com/get-docker/) for instalation)
+  * Grobid Server (See [Grobid Documentation](https://grobid.readthedocs.io/en/latest/Grobid-docker/) for instalation)
+  * Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for instalation)
 
 ## Installation instructions
 1. Clone this repository
