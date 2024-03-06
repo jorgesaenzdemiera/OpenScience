@@ -9,14 +9,28 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
   - Create a list of the links found in each paper.
 
 ## Requirements
+    - Python 3 (See [Python Downloads](https://www.python.org/downloads/) for instalation)
+    - Docker (See [Docker Downloads](https://docs.docker.com/get-docker/) for instalation)
+    - Grobid Server (See [Grobid Documentation](https://grobid.readthedocs.io/en/latest/Grobid-docker/) for instalation)
+    - Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for instalation)
 
 ## Installation instructions
+1. Clone this repository
+2. Create a Virtual Environment with all the required libraries
 
 ## Execution instructions
+1. Include the articles you want to analyze in the input folder
+2. Run the Grobid Server
+3. Run the Grobid Client
+4. Keep the necessary information of the Analysis (Output file will be removed after the next execution of the Client)
 
-## Running examples
+## Running example
+See the example with [10 computer vision articles](https://github.com/jorgesaenzdemiera/OpenScience/tree/main/Assesment%201.%20Grobid%20Analysis/input)
+[Output after execution](https://github.com/jorgesaenzdemiera/OpenScience/blob/main/CITATION.cff) include:
+    - An image featuring the word cloud generated from the abstract of each article processed with Grobid.
+    - An histogram showing the number of figures per article.
+    - A text file with all the links that appear in each one of the articles.
 
 ## Preferred citation
 Use [CITATION.cff](https://github.com/jorgesaenzdemiera/OpenScience/blob/main/CITATION.cff)
 
-## Acknowledgements

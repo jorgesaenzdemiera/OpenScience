@@ -1,0 +1,4 @@
+https://github.com/naver/FIRe.
+https://github.com/gtolias/how
+https://github.com/naver/kapture-localization
+https://www.visuallocalization.net/
