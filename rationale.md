@@ -1,4 +1,4 @@
-# How doeas the system works
+# How does the system works
 We want to  perform an analysis over 10 open-access articles using Grobid. We have the following objectives:
 * Draw a keyword cloud based on the abstract information
 * Create a visualization showing the number of figures per article
