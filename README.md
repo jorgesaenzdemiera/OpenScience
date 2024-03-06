@@ -34,6 +34,11 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
     cd OpenScience
     ```
 2. Create a Virtual Environment with all the required libraries
+   ```
+   conda create --name grobid python=3.10
+   conda activate grobid
+   pip install -r requirements.txt
+    ```
 
 ## Execution instructions
 1. Include the articles you want to analyze in the input folder
