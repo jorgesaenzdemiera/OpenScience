@@ -29,6 +29,10 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
 
 ## Installation instructions
 1. Clone this repository
+    ```
+    git clone https://github.com/jorgesaenzdemiera/OpenScience
+    cd OpenScience
+    ```
 2. Create a Virtual Environment with all the required libraries
 
 ## Execution instructions
