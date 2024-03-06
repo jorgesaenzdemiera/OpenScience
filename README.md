@@ -36,10 +36,12 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
 2. Create a Virtual Environment with all the required libraries
    ```
    python -m venv grobid
+   
    # En Windows
    .\grobid\Scripts\activate
    # En macOS/Linux
    source grobid/bin/activate
+   
    pip install -r requirements.txt
     ```
 
