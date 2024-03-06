@@ -7,14 +7,14 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main" coord="2,70.87,191.41,396.78,15.15;2,70.87,215.41,334.27,15.15">Sketch Based Image Retrieval for Architecture Images with Siamese Swin Transformer</title>
-				<funder ref="#_c7f2uh7">
+				<funder ref="#_PpMe4sk">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_B988PwT">
 					<orgName type="full">Jiangsu Science and Technology Programme (Natural Science Foundation of Jiangsu Province)</orgName>
 				</funder>
-				<funder ref="#_FJYwCYv">
+				<funder ref="#_EAkCBgZ">
 					<orgName type="full">Special Fund in XJTLU</orgName>
-				</funder>
-				<funder ref="#_e9jgRdt">
-					<orgName type="full">National Natural Science Foundation of China</orgName>
 				</funder>
 			</titleStmt>
 			<publicationStmt>
@@ -111,7 +111,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.0" ident="GROBID" when="2024-03-06T08:35+0000">
+				<application version="0.8.0" ident="GROBID" when="2024-03-06T23:31+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -157,14 +157,14 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <div><head n="6.">Acknowledgement</head><p>The work was partially supported by the following: <rs type="funder">National Natural Science Foundation of China</rs> under no.<rs type="grantNumber">61876155</rs>; <rs type="funder">Jiangsu Science and Technology Programme (Natural Science Foundation of Jiangsu Province)</rs> under no.<rs type="grantNumber">BE2020006-4</rs>; <rs type="programName">Key Program</rs> <rs type="funder">Special Fund in XJTLU</rs> under no.<rs type="grantNumber">KSF-T-06</rs>.</p></div>
 			</div>
 			<listOrg type="funding">
-				<org type="funding" xml:id="_e9jgRdt">
+				<org type="funding" xml:id="_PpMe4sk">
 					<idno type="grant-number">61876155</idno>
 				</org>
-				<org type="funding" xml:id="_c7f2uh7">
+				<org type="funding" xml:id="_B988PwT">
 					<idno type="grant-number">BE2020006-4</idno>
 					<orgName type="program" subtype="full">Key Program</orgName>
 				</org>
-				<org type="funding" xml:id="_FJYwCYv">
+				<org type="funding" xml:id="_EAkCBgZ">
 					<idno type="grant-number">KSF-T-06</idno>
 				</org>
 			</listOrg>
