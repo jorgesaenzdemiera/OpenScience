@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  grobid-server:
+    image: grobid/grobid:0.8.0
+    container_name: grobid-server
+    ports:
+      - 8070:8070
+      - 8071:8071
+    volumes:
+      - ./config/grobid:/home/config/grobid
+    restart: always
+      
+  paper_analysis:
+    build: . 
+    container_name: jorgesaenzdemiera/grobid_pdf
+    volumes:
+      - ./input:/home/input
+      - ./output:/home/output
+    
+    depends_on:
+      - grobid-server
+
+    restart: always
+
+networks:
+  default:
+    driver: bridge  
