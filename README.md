@@ -14,11 +14,7 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
   * Grobid Server (See [Grobid Documentation](https://grobid.readthedocs.io/en/latest/Grobid-docker/) for more detailed instalation)
     * Full image instalation:  
     ```
-    docker run --rm --gpus all --init --ulimit core=0 -p 8070:8070 grobid/grobid:0.8.0
-    ```
-    * Lightweight image instalation:
-    ```
-    docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.0
+    docker pull grobid/grobid:0.8.0
     ```
   * Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for more detailed instalation)
     ```
@@ -48,8 +44,15 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
 ## Execution instructions
 1. Include the articles you want to analyze in the input folder
 2. Run the Grobid Server
-3. Run the Grobid Client
-4. Keep the necessary information of the Analysis (Output file will be removed after the next execution of the Client)
+   ```
+    docker run --rm --init --ulimit core=0 -p 8070:8070 grobid/grobid:0.8.0
+    ```
+4. Run the Grobid Client
+   ```
+   cd Assesment\ 1.\ Grobid\ Analysis/code/
+   python3 grobid.py
+    ```
+6. Keep the necessary information of the Analysis (Output file will be removed after the next execution of the Client)
 
 ## Running example
 See the example with [10 computer vision articles](https://github.com/jorgesaenzdemiera/OpenScience/tree/main/Assesment%201.%20Grobid%20Analysis/input) in the repository.
