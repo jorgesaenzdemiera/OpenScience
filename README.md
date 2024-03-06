@@ -12,12 +12,20 @@ Assesments for Artificial Intelligence And Open Science In Research Software Eng
   * Python 3 (See [Python Downloads](https://www.python.org/downloads/) for instalation)
   * Docker (See [Docker Downloads](https://docs.docker.com/get-docker/) for instalation)
   * Grobid Server (See [Grobid Documentation](https://grobid.readthedocs.io/en/latest/Grobid-docker/) for more detailed instalation)
+    * Full image instalation:  
+    ```
+    docker run --rm --gpus all --init --ulimit core=0 -p 8070:8070 grobid/grobid:0.8.0
+    ```
+    * Lightweight image instalation:
+    ```
+    docker run --rm --init --ulimit core=0 -p 8070:8070 lfoppiano/grobid:0.8.0
+    ```
+  * Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for instalation)
     ```
     git clone https://github.com/kermitt2/grobid_client_python
     cd grobid_client_python
     python3 setup.py install
     ```
-  * Grobid Python Client (See [Grobid Client Python Github](https://github.com/kermitt2/grobid_client_python/tree/master) for instalation)
 
 ## Installation instructions
 1. Clone this repository
