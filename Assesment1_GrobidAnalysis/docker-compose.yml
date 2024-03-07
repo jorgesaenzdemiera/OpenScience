@@ -15,8 +15,8 @@ services:
     image: jorgesaenzdemiera/grobid_pdf:v3
     container_name: grobid-client
     volumes:
-      - ./input: /input
-      - ./output: /output
+      - ./input:/input
+      - ./output:/output
     
     depends_on:
       - grobid-server
