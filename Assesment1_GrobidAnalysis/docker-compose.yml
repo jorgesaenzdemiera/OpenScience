@@ -11,17 +11,16 @@ services:
       - ./config/grobid:/home/config/grobid
     restart: always
       
-  paper_analysis:
+  grobid-client:
     image: jorgesaenzdemiera/grobid_pdf:v3
     container_name: grobid-client
     volumes:
-      - ./input: home/input
-      - ./output: home/output
+      - ./input: /input
+      - ./output: /output
     
     depends_on:
       - grobid-server
 
-    restart: always
 
 networks:
   default:
